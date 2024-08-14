@@ -18,10 +18,10 @@ function Banner() {
                 <h1>and Professional</h1> 
                 <h1>Services</h1>
                 <Row className='fw-medium'>
-                    <Col md={6} xs={4} className='service-content'><SiTicktick /> Office</Col>
-                    <Col  md={6} xs={4} className='service-content'><SiTicktick /> Kitchen</Col>
-                    <Col  md={6} xs={4} className='service-content'><SiTicktick /> Living Room</Col>
-                    <Col  md={6} xs={4} className='service-content'><SiTicktick /> Basement</Col>
+                    <Col md={6} sd={3} xs={6} className='service-content'><SiTicktick /> Office</Col>
+                    <Col  md={6} sd={3} xs={6} className='service-content'><SiTicktick /> Kitchen</Col>
+                    <Col  md={6} sd={3} xs={6} className='service-content'><SiTicktick /> Basement</Col>
+                    <Col  md={6} sd={3} xs={6} className='service-content'><SiTicktick /> Living Room</Col>
                 </Row>
                 <Row>
                     <Col md={12} className='mt-4'><Button variant="outline-dark" className='fw-medium'>Contact Us</Button></Col>
